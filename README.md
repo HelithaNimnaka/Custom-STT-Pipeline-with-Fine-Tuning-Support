@@ -1,10 +1,10 @@
 # 🎙️ Custom STT Pipeline with Fine-Tuning Support
 
 ## 📌 Model:
-**Whisper Tiny** (`openai/whisper-tiny`)
+**Whisper Tiny** ([`openai/whisper-tiny`](https://github.com/openai/whisper))
 
 ## 📚 Fine-tuning Dataset:
-Hugging Face Common Voice (100 samples demo)
+[Hugging Face Common Voice (100 samples demo)](https://huggingface.co/datasets/mozilla-foundation/common_voice_13_0)
 
 ---
 
@@ -32,7 +32,7 @@ python app.py
 ## 🛠 Fine-Tuning Steps:
 
 1. **Add Hugging Face Token:**  
-   In `finetuning.py`:
+   In [`finetuning.py`](finetuning.py):
    ```python
    token = "add_your_huggingface_token_here"
 2. **Run Fine-Tuning Script:**<br>
