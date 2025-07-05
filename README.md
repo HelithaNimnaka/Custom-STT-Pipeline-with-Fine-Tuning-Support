@@ -41,7 +41,7 @@ python app.py
    python finetuning.py
    ```
 3. **Update Weights:**<br>
-   Load the fine-tuned model weights into `stt_pipeline.py` for inference.
+   Load the fine-tuned model weights into [`stt_pipeline.py`](stt_pipeline.py) for inference.
    
 ---
 
