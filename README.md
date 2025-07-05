@@ -24,7 +24,8 @@ pip install -r requirements.txt
 python app.py
 ```
 👉 You will see an interface like this:  
-*(Insert Interface Screenshot Here)*
+![Streamlit Interface Example](streamlit_example.png)
+
 
 ---
 
@@ -33,14 +34,14 @@ python app.py
 1. **Add Hugging Face Token:**  
    In `finetuning.py`:
    ```python
-   token = "your_huggingface_token_here"
-2. **Run Fine-Tuning Script:**
+   token = "add_your_huggingface_token_here"
+2. **Run Fine-Tuning Script:**<br>
    Customize the dataset/model if needed and run:
    ```
    python finetuning.py
    ```
-3. **Update Weights:**
-   Load the fine-tuned model weights into stt_pipeline.py for inference.
+3. **Update Weights:**<br>
+   Load the fine-tuned model weights into `stt_pipeline.py` for inference.
    
 ---
 
